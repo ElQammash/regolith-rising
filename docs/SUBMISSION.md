@@ -3,7 +3,7 @@
 **Project name:** Regolith Rising
 **Team:** AstraQuest
 **Challenge:** Build a Junior Astronaut Mission Trainer
-**Demo:** `https://<your-domain>/`
+**Demo:** `https://mistyrose-eland-246079.hostingersite.com/`
 **Repository:** https://github.com/ElQammash/regolith-rising
 
 ---

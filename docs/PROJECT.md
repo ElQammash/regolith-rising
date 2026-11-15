@@ -3,7 +3,7 @@
 **Team:** AstraQuest
 **Event:** NASA Space Apps Challenge 2026
 **Challenge:** Build a Junior Astronaut Mission Trainer
-**Play:** `https://<your-domain>/` (installable, works offline)
+**Play:** `https://mistyrose-eland-246079.hostingersite.com/` (installable, works offline)
 **Code:** https://github.com/ElQammash/regolith-rising
 
 ---

@@ -4,7 +4,7 @@
 
 Command a 4-person outpost on the Moon or Mars for 300 days. Pack a rocket with a fixed mass limit, split scarce power and crew time every 10 days, and get through solar storms, dust storms, lunar nights and broken equipment. Every number comes from a sourced NASA data file, and the game says openly what was simplified.
 
-- 🎮 Play: `https://<your-domain>/` (installable PWA, works offline)
+- 🎮 Play: `https://mistyrose-eland-246079.hostingersite.com/` (installable PWA, works offline)
 - 🌍 Arabic and English, with a full right-to-left layout
 - 📄 Full project documentation: [docs/PROJECT.md](docs/PROJECT.md) (PDF: [docs/PROJECT.pdf](docs/PROJECT.pdf))
 - 🧭 Product requirements: [docs/PRD.md](docs/PRD.md)

@@ -1,6 +1,6 @@
 # Deploying Regolith Rising to Hostinger
 
-These steps upload the game to the **root of your domain** (`https://<your-domain>/`).
+These steps upload the game to the **root of your domain** (`https://mistyrose-eland-246079.hostingersite.com/`).
 
 ## 1. Build
 
@@ -40,7 +40,7 @@ With no configuration, the API stores accounts in an SQLite file at `public_html
 - Check that hPanel → **Advanced → PHP Configuration** uses **PHP 8.1 or newer**, with `pdo_sqlite` enabled (it is on by default).
 - **Prefer MySQL?** Create a database in hPanel → **Databases → MySQL Databases**. Copy `api/config.example.php` to `api/config.local.php` *on the server* and fill in the name, user and password. The tables are created on first use.
 
-**Test it:** open `https://<your-domain>/api/save.php` in a browser. You should see `{"error":"Not logged in"}`. That means PHP and the database work. Then make an account in the game (☁ Account & cloud save).
+**Test it:** open `https://mistyrose-eland-246079.hostingersite.com/api/save.php` in a browser. You should see `{"error":"Not logged in"}`. That means PHP and the database work. Then make an account in the game (☁ Account & cloud save).
 
 ## 5. Check the deployment
 
@@ -63,4 +63,4 @@ npx cap add android
 npx cap sync
 ```
 
-In the app, cloud save needs an absolute API URL. Change `API` in `src/ui/cloud.ts` to `https://<your-domain>/api/`, and allow that origin with CORS headers in `api/db.php`.
+In the app, cloud save needs an absolute API URL. Change `API` in `src/ui/cloud.ts` to `https://mistyrose-eland-246079.hostingersite.com/api/`, and allow that origin with CORS headers in `api/db.php`.
