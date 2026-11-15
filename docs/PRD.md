@@ -3,7 +3,13 @@
 **Team:** AstraQuest
 **Event:** NASA Space Apps Challenge 2026
 **Challenge:** Build a Junior Astronaut Mission Trainer
-**Status:** Draft v0.1 (2026-11-15). Every number in this PRD is still being checked against its NASA source, and the final values live in `src/data/nasa.ts`.
+**Status:** v1.0 (2026-11-15). Built and verified. The numbers have been checked against their sources (corrections are listed in `docs/PROJECT.md` §6), and the final values live in `src/data/nasa.ts`.
+
+**Changes since v0.1:**
+- Optional cloud save with an account (username and password only), added at the team's request. Saving on the device stays the default, and the game still works offline with no account.
+- Mass budgets were tuned to 4,700 kg (Moon) and 4,600 kg (Mars).
+- A health effect for "no fresh food after turn 10" was added, based on NASA HRP findings on nutrient degradation.
+- Final balance results are in `docs/PROJECT.md` §7.
 
 ---
 

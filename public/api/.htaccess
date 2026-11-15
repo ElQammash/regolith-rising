@@ -1,0 +1,11 @@
+# Only the API endpoints are reachable; config and helpers are not.
+<FilesMatch "^(db|config\.local|config\.example)\.php$">
+  Require all denied
+</FilesMatch>
+# Pass the Authorization header through to PHP (needed on some Apache/LiteSpeed setups)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP:Authorization} .
+  RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+Options -Indexes

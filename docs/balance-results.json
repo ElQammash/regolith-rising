@@ -1,0 +1,467 @@
+{
+  "missionsPerStrategy": 2000,
+  "rows": [
+    {
+      "planet": "moon",
+      "strategy": "random",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 192,
+        "water": 436,
+        "food": 1312,
+        "health": 60,
+        "radiation": 0
+      },
+      "avgEndTurn": 3.6625,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "moon",
+      "strategy": "naive",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 211,
+        "water": 1789,
+        "food": 0,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 14.3825,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "moon",
+      "strategy": "thoughtful",
+      "winRate": 0.969,
+      "avgStars": 2.038183694530444,
+      "stars": [
+        467,
+        930,
+        541
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 47,
+        "food": 15,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 29.9815,
+      "avgDoseWin": 372.1148682618746,
+      "avgHealthWin": 99.83408635316397
+    },
+    {
+      "planet": "moon",
+      "strategy": "allPackagedFood",
+      "winRate": 0.8295,
+      "avgStars": 1.8318264014466545,
+      "stars": [
+        279,
+        1380,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 341,
+        "food": 0,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 29.6875,
+      "avgDoseWin": 355.40100796514776,
+      "avgHealthWin": 79.10352459421262
+    },
+    {
+      "planet": "moon",
+      "strategy": "greenhouseHeavy",
+      "winRate": 0.747,
+      "avgStars": 1.1378848728246318,
+      "stars": [
+        1288,
+        206,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 277,
+        "food": 228,
+        "health": 0,
+        "radiation": 1
+      },
+      "avgEndTurn": 29.2315,
+      "avgDoseWin": 467.3568011865466,
+      "avgHealthWin": 99.85629130334353
+    },
+    {
+      "planet": "moon",
+      "strategy": "solarOnly",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 1982,
+        "food": 18,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 27.1185,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "moon",
+      "strategy": "fissionOnly",
+      "winRate": 0.144,
+      "avgStars": 1.9895833333333333,
+      "stars": [
+        3,
+        285,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 429,
+        "food": 1283,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 28.8595,
+      "avgDoseWin": 297.28301681258705,
+      "avgHealthWin": 99.90972222222223
+    },
+    {
+      "planet": "moon",
+      "strategy": "heavyPrefabShield",
+      "winRate": 0.041,
+      "avgStars": 1.975609756097561,
+      "stars": [
+        2,
+        80,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 828,
+        "food": 1090,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 27.655,
+      "avgDoseWin": 294.99583861402476,
+      "avgHealthWin": 99.92682926829268
+    },
+    {
+      "planet": "moon",
+      "strategy": "regolithOnly",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 0,
+        "food": 2000,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 23,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "moon",
+      "strategy": "neverShelter",
+      "winRate": 0.521,
+      "avgStars": 1.2677543186180422,
+      "stars": [
+        810,
+        185,
+        47
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 16,
+        "food": 0,
+        "health": 0,
+        "radiation": 942
+      },
+      "avgEndTurn": 26.563,
+      "avgDoseWin": 493.1905838981733,
+      "avgHealthWin": 99.99023011914001
+    },
+    {
+      "planet": "moon",
+      "strategy": "alwaysShelter",
+      "winRate": 0.947,
+      "avgStars": 2.2697993664202745,
+      "stars": [
+        108,
+        1167,
+        619
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 85,
+        "food": 21,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 29.913,
+      "avgDoseWin": 349.36957666218774,
+      "avgHealthWin": 99.8238485979428
+    },
+    {
+      "planet": "mars",
+      "strategy": "random",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 220,
+        "water": 568,
+        "food": 1016,
+        "health": 196,
+        "radiation": 0
+      },
+      "avgEndTurn": 2.8185,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "mars",
+      "strategy": "naive",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 3,
+        "water": 1076,
+        "food": 0,
+        "health": 921,
+        "radiation": 0
+      },
+      "avgEndTurn": 11.4545,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "mars",
+      "strategy": "thoughtful",
+      "winRate": 0.832,
+      "avgStars": 2.2469951923076925,
+      "stars": [
+        77,
+        1099,
+        488
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 66,
+        "food": 228,
+        "health": 42,
+        "radiation": 0
+      },
+      "avgEndTurn": 29.4415,
+      "avgDoseWin": 486.38034550699956,
+      "avgHealthWin": 93.92937197773207
+    },
+    {
+      "planet": "mars",
+      "strategy": "allPackagedFood",
+      "winRate": 0.8935,
+      "avgStars": 1.3379966424174594,
+      "stars": [
+        1183,
+        604,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 90,
+        "food": 0,
+        "health": 123,
+        "radiation": 0
+      },
+      "avgEndTurn": 29.4195,
+      "avgDoseWin": 479.96975099517186,
+      "avgHealthWin": 48.73236837709771
+    },
+    {
+      "planet": "mars",
+      "strategy": "greenhouseHeavy",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 0,
+        "food": 1997,
+        "health": 3,
+        "radiation": 0
+      },
+      "avgEndTurn": 13.2225,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "mars",
+      "strategy": "solarOnly",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 306,
+        "water": 1587,
+        "food": 2,
+        "health": 105,
+        "radiation": 0
+      },
+      "avgEndTurn": 19.6645,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "mars",
+      "strategy": "fissionOnly",
+      "winRate": 0.017,
+      "avgStars": 2,
+      "stars": [
+        0,
+        34,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 1,
+        "food": 1965,
+        "health": 0,
+        "radiation": 0
+      },
+      "avgEndTurn": 28.853,
+      "avgDoseWin": 459.11021375000024,
+      "avgHealthWin": 100
+    },
+    {
+      "planet": "mars",
+      "strategy": "heavyPrefabShield",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 1,
+        "water": 1992,
+        "food": 5,
+        "health": 2,
+        "radiation": 0
+      },
+      "avgEndTurn": 22.504,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "mars",
+      "strategy": "regolithOnly",
+      "winRate": 0,
+      "avgStars": 0,
+      "stars": [
+        0,
+        0,
+        0
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 9,
+        "food": 1931,
+        "health": 60,
+        "radiation": 0
+      },
+      "avgEndTurn": 23.818,
+      "avgDoseWin": 0,
+      "avgHealthWin": 0
+    },
+    {
+      "planet": "mars",
+      "strategy": "neverShelter",
+      "winRate": 0.6815,
+      "avgStars": 1.4343360234776228,
+      "stars": [
+        819,
+        496,
+        48
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 19,
+        "food": 94,
+        "health": 57,
+        "radiation": 467
+      },
+      "avgEndTurn": 28.606,
+      "avgDoseWin": 541.3857884985276,
+      "avgHealthWin": 93.27859004047757
+    },
+    {
+      "planet": "mars",
+      "strategy": "alwaysShelter",
+      "winRate": 0.8315,
+      "avgStars": 2.2778111846061333,
+      "stars": [
+        78,
+        1045,
+        540
+      ],
+      "losses": {
+        "oxygen": 0,
+        "water": 73,
+        "food": 225,
+        "health": 39,
+        "radiation": 0
+      },
+      "avgEndTurn": 29.431,
+      "avgDoseWin": 484.5403230859075,
+      "avgHealthWin": 93.85841921441195
+    }
+  ]
+}

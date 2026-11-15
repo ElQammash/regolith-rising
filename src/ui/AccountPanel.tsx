@@ -94,7 +94,7 @@ export default function AccountPanel({ save, onBack, onLoaded }: Props) {
           </form>
         )}
         {msg && <p className="msg">{msg}</p>}
-        <p className="help">{t('account.offline')}</p>
+        {!user && <p className="help">{t('account.offline')}</p>}
       </section>
     </div>
   );

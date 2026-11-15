@@ -7,3 +7,7 @@ coverage/
 .vscode/
 .idea/
 *.local
+public/api/config.local.php
+.claude/settings.local.json
+public/api/data/*.sqlite*
+*.zip
