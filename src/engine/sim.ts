@@ -1,4 +1,4 @@
-﻿import { NASA } from '../data/nasa';
+import { NASA } from '../data/nasa';
 import { CARGO, CRATE_AMOUNT, validateLoadout } from './cargo';
 import { Rng } from './rng';
 import { TUNING as T } from './tuning';

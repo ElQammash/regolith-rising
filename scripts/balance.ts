@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Headless balance simulator: plays thousands of missions per strategy and
  * prints win rates, stars and loss reasons. Usage:
  *   npm run balance            (2000 missions per strategy per planet)

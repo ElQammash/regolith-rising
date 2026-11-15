@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Bot players used by the balance simulator and tests. They use only what a
  * human sees on screen (state + forecast), never hidden future events.
  */

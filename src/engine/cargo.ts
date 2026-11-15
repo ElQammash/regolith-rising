@@ -1,4 +1,4 @@
-﻿import { NASA } from '../data/nasa';
+import { NASA } from '../data/nasa';
 import { TUNING } from './tuning';
 import type { CargoId, Loadout, Planet } from './types';
 

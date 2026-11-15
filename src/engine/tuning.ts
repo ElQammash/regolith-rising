@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Gameplay tuning knobs. These are NOT NASA data: they are design choices made
  * so the game is playable in 30 turns, tuned with scripts/balance.ts.
  * Real figures live in src/data/nasa.ts and are referenced, never copied, here.
