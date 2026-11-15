@@ -20,9 +20,9 @@ The finished site is in `dist/`. It includes:
 
 ## 2. Upload with the hPanel File Manager (easiest)
 
-1. Zip the **contents** of `dist/` (not the folder itself). On Windows, open `dist`, select everything (Ctrl+A), then right-click → *Send to → Compressed (zipped) folder*. Or run this in PowerShell:
+1. Zip the **contents** of `dist/` (not the folder itself), with `.htaccess` included. On Windows, use the built-in `tar`. Avoid PowerShell's `Compress-Archive`: its zips use `\` in paths, and Linux servers extract those as broken file names.
    ```bash
-   Compress-Archive -Path dist\* -DestinationPath regolith-rising.zip -Force
+   cd dist; tar -a -cf ../regolith-rising.zip * .htaccess; cd ..
    ```
 2. hPanel → **Websites** → your site → **File Manager** → open `public_html`.
 3. If there is an old `index.html` or a `default.php` placeholder, delete it.
